@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cozy House - shelter for pets in Boston. We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="./favicon.ico">
+  <title>Cozy House</title>
+</head>
+<body class="body">
+  <header class="header header--fixed">
+    <div class="header__container container">
+        <a href="index.html" class="header__logo logo logo--dark">
+          Cozy House
+          <span class="logo__small">Shelter for pets in&nbsp;Boston</span>
+        </a>
+
+        <button class="header__burger burger burger--dark">
+          <span class="burger__line"></span>
+        </button>
+
+        <nav class="header__nav nav">
+          <a href="index.html" class="nav__logo logo logo--dark">
+            Cozy House
+            <span class="logo__small">Shelter for pets in&nbsp;Boston</span>
+          </a>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link nav__link--dark">About the shelter</a>
+            </li>
+            <li class="nav__item">
+              <a href="pets.html" class="nav__link nav__link--active nav__link--dark">Our pets</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#help" class="nav__link nav__link--dark">Help the shelter</a>
+            </li>
+            <li class="nav__item">
+              <a href="#footer" class="nav__link nav__link--dark">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="visually-hidden">Cozy House - shelter for pets in&nbsp;Boston</h1>
+
+    <section class="section-pets section-indent">
+      <div class="container">
+        <h2 class="section-pets__title title title--center">Our friends who are&nbsp;looking for a house</h2>
+        <div class="section-pets__inner">
+          <div class="slider slider--big">
+
+            <ul class="slider__wrapper">
+              
+            </ul>
+
+            <div class="slider__btns">
+              <button class="slider__btn slider__btn--left-end" aria-label="First page with slides" disabled>
+                  &lt;&lt;
+              </button>
+
+              <button class="slider__btn slider__btn--left" aria-label="Previosly page with slides" disabled>
+                &lt;
+              </button>
+
+              <div class="slider__pagination">
+                <button class="slider__btn slider__pagination-btn slider__btn--active">1</button>
+              </div>
+
+              <button class="slider__btn slider__btn--right" aria-label="Next page with slides">
+                &gt;
+              </button>
+
+              <button class="slider__btn slider__btn--right-end" aria-label="Last page with slides">
+                  &gt;&gt;
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="footer__container container">
+      <div class="footer__column contacts">
+        <h2 class="footer__title title title--light">For questions and suggestions</h2>
+        <a class="footer__link footer__link--email" href="mailto:email@shelter.com">email@shelter.com</a>
+        <a class="footer__link footer__link--phone" href="tel:+136745677554">+13 674 567 75 54</a>
+      </div>
+
+      <div class="footer__column address">
+        <h2 class="address__title title title--light">We are waiting for your visit</h2>
+        <a class="footer__link footer__link--location" href="https://goo.gl/maps/r6TrThBDjNaEETh28" target="_blank">1 Central Street, Boston (entrance from the store)</a>
+        <a class="footer__link footer__link--location" href="https://goo.gl/maps/Q8nLsqhg68Sm68zbA" target="_blank">18 South Park, London</a>
+      </div>
+
+      <picture class="footer__picture">
+        <source srcset="assets/images/footer-puppy.webp" type="image/webp">
+        <img class="footer__img" src="assets/images/footer-puppy.png" width="300" height="310" alt="Puppy" loading="lazy">
+      </picture>
+    </div>
+  </footer>
+
+  <section class="popup">
+    <button class="popup__btn" aria-label="Close popup"></button>
+
+    <div class="popup__content">
+      <picture class="popup__picture">
+        <source srcset="assets/images/jennifer.webp">
+        <img class="popup__img" src="assets/images/jennifer.png" width="500" height="500" alt="Jennifer the cat" loading="lazy">
+      </picture>
+
+      <div class="popup__description">
+        <h2 class="popup__title">Jennifer</h2>
+
+        <p class="popup__type">Dog - Labrador</p>
+
+        <p class="popup__descr">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+
+        <ul class="popup__list">
+          <li class="popup__item"><span class="popup__bold">Age: </span><span class="popup__normal">2 months</span></li>
+          <li class="popup__item"><span class="popup__bold">Inoculations: </span><span class="popup__normal">none</span></li>
+          <li class="popup__item"><span class="popup__bold">Diseases: </span><span class="popup__normal">none</span></li>
+          <li class="popup__item"><span class="popup__bold">Parasites: </span><span class="popup__normal">none</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="index.js" type="module"></script>
+</body>
+</html>
